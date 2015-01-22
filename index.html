@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script>
+		$("document").ready(function(){
+			$("#list").find("li").map(function(){
+				console.log($(this).text());
+	
+			});	
+				}
+			);
+
+		</script>
+		<style>
+			h1 {
+				font-size: 5em;
+			}
+			#description {
+				font-family: "Courier New";	
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="heading" class="name">Tutorial</h1>
+		<ul id="list">
+			<li>Chemicals</li>
+			<li>Elements</li>
+			<li>Laminate</li>
+		</ul>
+	</body>
+</html>
+
